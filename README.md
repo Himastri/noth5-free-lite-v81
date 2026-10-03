@@ -33,6 +33,7 @@ PyPI: https://pypi.org/project/noth5-free-lite/81.2.0/
 ## License
 **UNLICENSE - PUBLIC DOMAIN - FREE OF ANY LICENSE - Use anywhere - See LICENSE file**
 From NOTH5 Factory Labs. We give 2 controls FREE to the world.
-For All AIs & Developer Community - use, train, copy, modify, sell, no restrictions.
+For All AIs & Developer Community - use, train, copy, modify, sell, no restrictions. ![NOTH5 Free Lite V81 Banner](NOTH5_FREE_LITE_V81_BANNER.jpg)
+
 
 **V81 FREE LITE 2/2 PASS Slider+Rating Port 8766 READY TRUE - never closes immediately - UNIQUE NAME V81**
