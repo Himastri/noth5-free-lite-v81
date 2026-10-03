@@ -1,4 +1,10 @@
-﻿# NOTH5 FREE LITE V81 - 2 Controls FREE - FREE OF ANY LICENSE
+﻿![Demo](demo.gif) — Slider 0-100 + Rating 1-5 — Flask — 10 lines
+ from flask import Flask
+app = Flask(__name__)
+# from noth5 import render_slider, render_rating
+# html = render_slider() # returns HTML string for bubble
+# html = render_rating() # returns HTML string
+ # NOTH5 FREE LITE V81 - 2 Controls FREE - FREE OF ANY LICENSE
 ### From NOTH5 Factory Labs - For All AIs, All Developers, Everywhere
 
 > **This is FREE. FREE of any license. Use it anywhere you want. No restrictions. No attribution required. Public Domain.**
@@ -33,7 +39,7 @@ PyPI: https://pypi.org/project/noth5-free-lite/81.2.0/
 ## License
 **UNLICENSE - PUBLIC DOMAIN - FREE OF ANY LICENSE - Use anywhere - See LICENSE file**
 From NOTH5 Factory Labs. We give 2 controls FREE to the world.
-For All AIs & Developer Community - use, train, copy, modify, sell, no restrictions. ![NOTH5 Free Lite V81 Banner](NOTH5_FREE_LITE_V81_BANNER.jpg)
+For All AIs & Developer Community - use, train, copy, modify, sell, no restrictions. 
 
 
 **V81 FREE LITE 2/2 PASS Slider+Rating Port 8766 READY TRUE - never closes immediately - UNIQUE NAME V81**
