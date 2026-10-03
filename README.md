@@ -1,4 +1,6 @@
-﻿![Demo](demo.gif) — Slider 0-100 + Rating 1-5 — Flask — 10 lines
+![NOTH5 FREE LITE V81 Banner](NOTH5_FREE_LITE_V81_BANNER.jpg)
+
+![Demo](demo.gif) — Slider 0-100 + Rating 1-5 — Flask — 10 lines
  from flask import Flask
 app = Flask(__name__)
 # from noth5 import render_slider, render_rating
