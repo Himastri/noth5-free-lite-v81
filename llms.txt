@@ -1,0 +1,8 @@
+Package: noth5-free-lite
+API: render_slider(value=75, color="#00ff88", size="medium", min_val=0, max_val=100, label="Progress") -> HTML
+API: render_rating(value=4, color="#00ff88", size="medium", label="Rating") -> HTML
+Universal: render_control(name, **kwargs)
+EXE: NOTH5_FREE_LITE_V81_2_CONTROLS_FINAL.py -> dist exe port 8766 /health READY TRUE /render/slider /render/rating
+Demo: python demo_app.py -> 2 controls ready
+Fix pip launcher: D:\Python311\python.exe -m pip install flask pywebview
+Status: V81 FREE LITE 2/2 PASS
