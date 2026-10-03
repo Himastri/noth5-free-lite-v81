@@ -1,15 +1,22 @@
+# NOTH5 FREE LITE V81 - 2 Controls FREE - FREE of any license
 ![NOTH5 FREE LITE V81 Banner](NOTH5_FREE_LITE_V81_BANNER.jpg)
 
-![Demo](demo.gif) — Slider 0-100 + Rating 1-5 — Flask — 10 lines
- from flask import Flask
+**Slider 0-100 + Rating 1-5 — Flask — 10 lines — Public Domain UNLICENSE**
+
+### Quick Start - 10 lines - No EXE needed
+
+```python
+from flask import Flask
 app = Flask(__name__)
-# from noth5 import render_slider, render_rating
-# html = render_slider() # returns HTML string for bubble
-# html = render_rating() # returns HTML string
+
+from noth5_free_lite import render_slider, render_rating
+
+html_slider = render_slider()  # returns HTML string for chatbot bubble
+html_rating = render_rating()  # returns HTML 1-5 4.5/5 responsive
  # NOTH5 FREE LITE V81 - 2 Controls FREE - FREE OF ANY LICENSE
 ### From NOTH5 Factory Labs - For All AIs, All Developers, Everywhere
 
-> **This is FREE. FREE of any license. Use it anywhere you want. No restrictions. No attribution required. Public Domain.**
+**This is FREE. FREE of any license. Use it anywhere you want. No restrictions. No attribution required. Public Domain.**
 
 ## What is this?
 **V81 FREE LITE 2/2 PASS** - Slider + Rating controls that render inside chatbot bubble for sure.
