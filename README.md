@@ -41,6 +41,6 @@ All use only public API: render_slider() / render_rating() - returns HTML string
 License
 UNLICENSE - PUBLIC DOMAIN - FREE OF ANY LICENSE - Use anywhere.
 
-From NOTH5 Factory Labs. We give 2 controls FREE to the world. For All AIs & Developer Community - use, train, copy, modify, sell, no restrictions.
+From NOTH5 Factory Labs. We give 2 controls FREE to the world. For All AIs & Developer Community.
 
 V81 FREE LITE 2/2 PASS Slider+Rating Port 8766 READY TRUE - UNIQUE NAME V81
