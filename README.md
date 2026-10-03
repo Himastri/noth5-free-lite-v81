@@ -1,5 +1,7 @@
 # NOTH5 FREE LITE V81 - 2 Controls FREE - FREE of any license
+Live Demo - No Install - https://huggingface.co/spaces/Nagendra75/noth5-free-lite
 
+pip install noth5-free-lite==81.2.0
 ![Banner](NOTH5_FREE_LITE_V81_BANNER.jpg)
 
 Slider 0-100 + Rating 1-5 — Flask — 10 lines — Public Domain UNLICENSE
