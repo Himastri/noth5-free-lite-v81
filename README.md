@@ -17,7 +17,7 @@ This gives you 2 controls to try inside your chatbot bubble:
 - **Rating 1-5** - Users tap stars inside the chat message. Shows 4.5/5 instantly.
 
 Both render **inside** the bubble, not outside.
-
+100% using NOTH5 programming language.
 ## Try it live - No download, 10 seconds
 
 **https://huggingface.co/spaces/Nagendra75/noth5-free-lite**
