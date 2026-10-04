@@ -18,6 +18,19 @@ This gives you 2 controls to try inside your chatbot bubble:
 
 Both render **inside** the bubble, not outside.
 100% using NOTH5 programming language.
+Built using NOTH5 language - a language that lets controls live and calculate inside the chat bubble itself, not outside.
+## Why both EXE and pip?
+
+This is not built with 100% Python alone. Python alone cannot make a control live and calculate inside the chat bubble itself.
+
+We used NOTH5 programming language to make that possible. NOTH5 language is what lets the slider and rating work inside the bubble.
+
+So we give you both:
+
+- **pip** - Python wrapper - 10 lines - you can read `demo_app.py` - calls NOTH5 engine
+- **EXE** - Contains NOTH5 engine - signed, offline, does only this - for people who want to see it work without installing Python
+
+Same controls, two ways to try. Both render inside bubble.
 ## Try it live - No download, 10 seconds
 
 **https://huggingface.co/spaces/Nagendra75/noth5-free-lite**
