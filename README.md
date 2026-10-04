@@ -16,21 +16,38 @@ This gives you 2 controls to try inside your chatbot bubble:
 - **Slider 0-100** - Users drag and pick a number inside the chat message. Smooth, live, no page reload.
 - **Rating 1-5** - Users tap stars inside the chat message. Shows 4.5/5 instantly.
 
-Both render **inside** the bubble, not outside.
-100% using NOTH5 programming language.
-Built using NOTH5 language - a language that lets controls live and calculate inside the chat bubble itself, not outside.
-## Why both EXE and pip?
+Both render **inside** the bubble, not outside. 100% built using NOTH5 programming language - a language with its own compiler that lets controls live and calculate inside the chat bubble itself, not outside.
 
-This is not built with 100% Python alone. Python alone cannot make a control live and calculate inside the chat bubble itself.
+## Why EXE and pip both?
 
-We used NOTH5 programming language to make that possible. NOTH5 language is what lets the slider and rating work inside the bubble.
+NOTH5 is not open source Python. It has its own compiler. You cannot run NOTH5 code with Python alone. Python alone cannot make a control live and calculate inside the chat bubble itself.
 
-So we give you both:
+So we compile NOTH5 language to EXE. That EXE contains the NOTH5 engine that renders slider and rating inside bubble. We were forced to write it this way because NOTH5 is not open source.
 
-- **pip** - Python wrapper - 10 lines - you can read `demo_app.py` - calls NOTH5 engine
-- **EXE** - Contains NOTH5 engine - signed, offline, does only this - for people who want to see it work without installing Python
+That's why you get two ways to try the same controls:
+
+**Example 1 - EXE only (no Python needed):**
+Double click NOTH5_FREE_LITE_V81_2_CONTROLS.exe - you see slider 0-100 and rating 1-5 working inside bubble. No install, no pip, offline. The EXE is the compiled NOTH5 language.
+
+**Example 2 - pip for Python developers:**
+
+pip install noth5-free-lite==81.2.0
+
+from flask import Flask
+app = Flask(__name__)
+
+from noth5_free_lite import render_slider, render_rating
+
+html_slider = render_slider()
+html_rating = render_rating()
+
+Put html_slider and html_rating inside your chatbot bubble HTML. It works inside. pip is Python wrapper - 10 lines - you can read demo_app.py - wrapper calls NOTH5 engine.
+
+**Example 3 - Full NOTH5 Factory (when you use full version):**
+Full NOTH5 language can embed Python inside itself, or run as service, or as DLL, or as portable EXE. Many ways possible because NOTH5 has its own compiler. Lite version shows you 2 controls. Full version gives you 105 controls the same way.
 
 Same controls, two ways to try. Both render inside bubble.
+
 ## Try it live - No download, 10 seconds
 
 **https://huggingface.co/spaces/Nagendra75/noth5-free-lite**
