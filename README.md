@@ -1,6 +1,7 @@
 # NOTH5 by Nagendra Prasad BK — Controls Inside Chat Bubble
 NOTH5 FREE LITE — Slider and Rating render INSIDE chat bubble, not outside.
 Part of NOTH5 Factory: 105 controls (calendar, file upload, map, chart, table) + Local DB 75k req/sec.
+The thing missing from every chatbot — controls live INSIDE the bubble itself, not outside as a separate webpage
 Pip: noth5-free-lite | Live Demo: https://huggingface.co/spaces/Nagendra75/noth5-free-lite
 
 ## The thing missing from every chatbot
